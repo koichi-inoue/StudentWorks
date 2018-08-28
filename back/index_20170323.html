@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<title>WebSites Gallery</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="jquery.bxslider.min.js"></script>
+	<link href="jquery.bxslider.css" rel="stylesheet" />
+
+	<link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+	<div id="container">
+
+		<h1>Student Works</h1>
+
+		<ul class="bxslider">
+
+			<li><iframe src="http://watertsukasa.web.fc2.com/"></iframe></li>
+			<li><iframe src="http://sonaeruksu.wpblog.jp/"></iframe></li>
+
+			<li><iframe src="http://lovexecutive7.web.fc2.com/"></iframe></li>
+			<li><iframe src="http://www.kyusan-u.ac.jp/~k14ad098/enshu-b/"></iframe></li>
+			<li><iframe src="https://sntarchive.wordpress.com/"></iframe></li>
+
+			<li><iframe src="http://www.kyusan-u.ac.jp/~k14ad006"></iframe></li>
+			<li><iframe src="http://www.kyusan-u.ac.jp/~k14ad018"></iframe></li>
+			<li><iframe src="http://www.kyusan-u.ac.jp/~k14ad025"></iframe></li>
+			<li><iframe src="http://www.kyusan-u.ac.jp/~k14ad028"></iframe></li>
+			<li><iframe src="http://www.kyusan-u.ac.jp/~k14ad077"></iframe></li>
+			<li><iframe src="http://www.kyusan-u.ac.jp/~k14ad081"></iframe></li>
+			<li><iframe src="http://www.kyusan-u.ac.jp/~k14ad093/"></iframe></li>
+			<li><iframe src="http://www.kyusan-u.ac.jp/~k14ad096"></iframe></li>
+			<li><iframe src="http://www.kyusan-u.ac.jp/~k14ad098"></iframe></li>
+			<li><iframe src="http://www.kyusan-u.ac.jp/~k14ad104"></iframe></li>
+			<li><iframe src="http://www.kyusan-u.ac.jp/~k14ad129"></iframe></li>
+			<li><iframe src="http://www.kyusan-u.ac.jp/~k13ad091"></iframe></li>
+			<li><iframe src="http://www.kyusan-u.ac.jp/~k13ad107"></iframe></li>
+
+			<li><iframe src="http://afdn9.com/9kuri/"></iframe></li>
+			<li><iframe src="http://art.kyusan-u.ac.jp/student_works/MinoriMise/"></iframe></li>
+			<li><iframe src="http://www.kurate-museum.com/"></iframe></li>
+			<li><iframe src="http://faam.city.fukuoka.lg.jp/FT/2009/jpn/artist/at01.html"></iframe></li>
+
+		</ul>
+
+		<p>各サイトをゆっくりご覧になりたい場合は、スライドショーを一時停止させて下さい。</p>
+
+	</div>
+
+	<script>
+	$(function(){
+		$('.bxslider').bxSlider({
+			auto:true,
+			autoControls: true,
+			speed:1000,
+			pause: 5000,
+			pager:true,
+		});
+	});
+	</script>
+
+</body>
+
+</html>
